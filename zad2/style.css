@@ -1,0 +1,30 @@
+h1 {
+    color: orangered;
+}
+label{
+    color: orangered;
+    display: block;
+    padding-bottom: 10px;
+}
+.black{
+    color:black;
+}
+button{
+    color:white;
+    background-color: orangered;
+    margin-left: 10px;
+    border-radius: 10%;
+}
+@media (max-width: 350px) {
+    form{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    button{
+        width:100%;
+        margin:5px;
+    }
+    label{
+        width:100%;
+    }
+}

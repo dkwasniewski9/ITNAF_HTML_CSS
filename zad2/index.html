@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularz</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <h1>Employment Form</h1>
+    <form>
+        <label>
+            <p>First name</p>
+            <input type="text" required id="firstName" name="firstName">
+        </label>
+        <label>
+            <p>Last name</p>
+            <input type="text" required id="lastName" name="lastName">
+        </label>
+        <label>
+            <p>E-mail</p>
+            <input type="email" required id="email" name="email">
+        </label>
+        <label>
+            <p>Phone</p>
+            <input type="tel" required id="phone" name="phone" pattern="[0-9]{9}">
+        </label>
+        <label>
+            <p>Date of birth</p>
+            <input type="date" required id="dob" name="dob">
+        </label>
+        <label>
+            <p>Gender</p>
+            <select id="gender" name="gender" required>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+        </label>
+        <label>
+            <p>What are you looking for</p>
+            <label>
+                <p class="black">
+                    <input type="radio" name="lf" id="softwareEngineer"> Software Engineer
+                </p>
+            </label>
+            <label>
+                <p class="black">
+                    <input type="radio" name="lf" id="uxDesigner">  UX designer
+                </p>
+            </label>
+            <label>
+                <p class="black">
+                    <input type="radio" name="lf" id="analyticsSpecialist"> Analytics Specialist
+                </p>
+            </label>
+            <label>
+                <p class="black">
+                    <input type="radio" name="lf" id="projectManager"> Project Manager
+                </p>
+            </label>
+
+        </label>
+        <label>
+            <p>Which programming languages do you know?</p>
+            <p class="black"><input type="checkbox"> Java</p>
+            <p class="black"><input type="checkbox"> Javascript</p>
+            <p class="black"><input type="checkbox"> C#</p>
+            <p class="black"><input type="checkbox"> Kotlin</p>
+            <p class="black"><input type="checkbox"> Python</p>
+            <p class="black"><input type="checkbox"> Scala</p>
+        </label>
+        <label class="buttons"><button type="reset">Reset</button><button type="submit">Submit</button></label>
+    </form>
+</body>
+</html>
