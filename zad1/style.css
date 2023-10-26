@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.title{
+    background-color: red;
+    color: white;
+    padding: 10px;
+}
+.hamburger{
+    background-color: rgb(173, 61, 61);
+    width: 40%;
+    height: 40px;
+    border-radius: 20px;
+    border-bottom: 5px solid brown;
+}
+.cheese{
+    background-color: yellow;
+    width: 45%;
+    height: 25px;
+    border-bottom: 5px solid rgb(197, 197, 0)
+}
+.tomato{
+    background-color: red;
+    width: 30%;
+    height: 35px;
+    border-bottom: 5px solid darkred; 
+}
+.cucumber{
+    background-color: lightgreen;
+    width: 25%;
+    height: 70px;
+    border-radius: 0 0 70px 70px;
+    border-bottom: green solid 20px;
+}
+.onion_circle{
+    border-radius: 50%;
+    width: 20%;
+    height: 100%;
+    margin-right: 5px;
+    background-color: rgb(172, 102, 172);
+}
+.onion{
+    background-color: rgb(145, 1, 145);
+    width:30%;
+    height: 40px;
+    display: flex;
+}
+.balls{
+    display:flex;
+    width: 20%;
+    height:100px;
+    align-items: center;
+}
+.ball{
+    width: 30%;
+    height: 100%;
+    background-color: brown;
+    border-radius: 50%;
+}
+.bun{
+    background-color: rgb(255, 228, 196);
+    width: 40%;
+    height: 100px;
+    border-radius: 10px 10px 60px 60px;
+    border-top: 20px solid rgb(214, 184, 124);
+}
+.plate{
+    width: 60%;
+    height:60px;
+    background-color: darkgrey;
+    border-radius: 10px 10px 40px 40px;
+    border-top: 20px solid grey;
+}
+.reverse{
+    transform: rotate(180deg);
+}
